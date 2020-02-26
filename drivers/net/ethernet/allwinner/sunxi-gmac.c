@@ -820,7 +820,7 @@ static const struct dev_pm_ops geth_pm_ops;
  *
  *
  ****************************************************************************/
-#define sunxi_get_soc_chipid(x) {}
+//#define sunxi_get_soc_chipid(x) {}
 
 #ifdef PHY_POWER_ON
 void gmac_phy_power_on(struct geth_priv *priv)
